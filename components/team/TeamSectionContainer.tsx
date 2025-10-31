@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import TeamCard from './TeamCard';
+import TeamCard from '../cards/TeamCard';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface TeamMember {

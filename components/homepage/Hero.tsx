@@ -22,7 +22,7 @@ const slides = [
     subtitle:
       "Sevenstone Investments Management Limited is an impact-focused enterprise and capital development firm that bridges the gap between ideas and finance. We connect entrepreneurs, SMEs and youth-led enterprises with the financial tools, mentorship and partnerships they need to grow, thrive and create sustainable impact.",
     buttonText: "Explore Our Work",
-    buttonLink: "/about",
+    buttonLink: "/our-services",
   },
   {
     id: 2,
@@ -30,8 +30,8 @@ const slides = [
     title: "Trusted ecosystem enabler and Strategic implementation partner",
     subtitle:
       "Building collaborative platforms that connect ideas, institutions and impact for sustainable enterprise growth.",
-    buttonText: "Our Approach",
-    buttonLink: "/approach",
+    buttonText: "Explore Our Work",
+    buttonLink: "/our-services",
   },
   {
     id: 3,
@@ -39,8 +39,8 @@ const slides = [
     title: "Catalyst for Youth-led enterprise growth",
     subtitle:
       "Inspiring, equipping and financing the next generation of entrepreneurs to lead Africa’s transformation.",
-    buttonText: "Get Involved",
-    buttonLink: "/contact",
+    buttonText: "Explore Our Work",
+    buttonLink: "/our-services",
   },
 ];
 

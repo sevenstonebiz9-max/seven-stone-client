@@ -9,6 +9,11 @@
   font-family: var(--font-nunitoSans) ;
 }
 
+body {
+  background-color: white;
+}
+/* FFFDF9 */
+
 @theme {
   --color-main-maroon: #5C1A25;
   --color-secondary-marron: #9A3F3F;

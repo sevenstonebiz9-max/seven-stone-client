@@ -94,7 +94,7 @@ const Navbar = () => {
             menuWidth="12vw"
           />
 
-          <Link href="/#about" className="hover:text-main-maroon transition-all duration-200">
+          <Link href="/news-and-insights" className="hover:text-main-maroon transition-all duration-200">
             News & Insights
           </Link>
         </nav>

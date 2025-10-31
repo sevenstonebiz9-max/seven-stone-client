@@ -1,3 +1,5 @@
+import { Article } from "@/types/articlesTypes";
+
 export const advisoryTeam = [
     {
       name: 'Sarah Karingi',
@@ -199,3 +201,92 @@ export const sectorAdvisoryMeambers = [
         `,
     },
 ]
+
+export const articles: Article[] = [
+  {
+    id: 1,
+    slug: "empowering-smes",
+    title: "Empowering SMEs Through Innovative Financial Solutions",
+    excerpt:
+      "Discover how Sevenstone is transforming the SME landscape across Kenya through accessible finance and strategic partnerships.",
+    image: "/images/slider-2.jpg",
+    coverImage: "/images/slider-2.jpg",
+    date: "October 2025",
+    author: "Jane Mwangi – Head of SME Development",
+    content: `
+      Sevenstone is empowering small and medium enterprises across Kenya
+      through strategic partnerships and innovative finance models. By
+      offering targeted support and capital access, we're building sustainable
+      businesses that fuel inclusive economic growth.
+
+      Our approach focuses on capacity-building, mentorship, and access to
+      affordable credit, ensuring SMEs can thrive in both local and
+      international markets. Through collaborations with key stakeholders,
+      Sevenstone aims to unlock the full potential of entrepreneurship in
+      Kenya.
+    `,
+  },
+  {
+    id: 2,
+    slug: "youth-enterprise",
+    title: "Youth-Led Enterprises: Building the Next Generation of Entrepreneurs",
+    excerpt:
+      "Our programs equip young innovators with tools and capital to scale ideas into sustainable enterprises.",
+    image: "/images/slider-1.jpg",
+    coverImage: "/images/slider-1.jpg",
+    date: "September 2025",
+    author: "Brian Otieno – Program Manager, Youth Development",
+    content: `
+      Our youth empowerment programs foster innovation, leadership, and
+      enterprise growth by providing young entrepreneurs with mentorship and
+      resources to scale impactful ideas.
+
+      We believe that Kenya’s youth hold the key to the country’s economic
+      transformation. By integrating entrepreneurship education, access to
+      finance, and peer-to-peer learning, Sevenstone is creating a generation
+      of confident and capable innovators.
+    `,
+  },
+  {
+    id: 3,
+    slug: "partnerships-growth",
+    title: "Partnerships Driving Inclusive Growth in Africa",
+    excerpt:
+      "Sevenstone collaborates with corporates, universities, and government agencies to promote long-term impact and inclusion.",
+    image: "/images/image-4.jpeg",
+    coverImage: "/images/image-4.jpeg",
+    date: "August 2025",
+    author: "Dr. Samuel Kariuki – Director of Partnerships",
+    content: `
+      Through public-private partnerships, Sevenstone is driving initiatives
+      that promote long-term inclusion and empower local communities for
+      sustainable growth.
+
+      Our collaborations span across Africa, focusing on empowering MSMEs,
+      women, and youth-led ventures through investment facilitation and
+      business development support. Together, we’re building an ecosystem
+      that fosters innovation, resilience, and equitable opportunities.
+    `,
+  },
+  {
+    id: 4,
+    slug: "women-in-enterprise",
+    title: "Women in Enterprise: Leading the Change",
+    excerpt:
+      "Highlighting how women entrepreneurs are shaping Kenya’s innovation landscape through resilience and creativity.",
+    image: "/images/slider-2.jpg",
+    coverImage: "/images/slider-2.jpg",
+    date: "July 2025",
+    author: "Grace Wanjiku – Women in Business Coordinator",
+    content: `
+      Women-led enterprises continue to play a vital role in Africa’s economy,
+      fostering innovation and sustainable solutions for future generations.
+
+      Sevenstone’s Women in Enterprise program supports women founders
+      through funding, networking, and capacity-building initiatives. By
+      highlighting their success stories, we’re inspiring others to follow
+      their path and lead with purpose.
+    `,
+  },
+];
+

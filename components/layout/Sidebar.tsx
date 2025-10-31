@@ -67,13 +67,13 @@ const Sidebar = () => {
           <Link href="/about-us/team" onClick={toggleSidebar} className='text-black/80 pt-3'>
             <p>Our Team</p>
           </Link>   
-          <Link href="/careers" onClick={toggleSidebar} className='text-black/80 pt-3'>
+          <Link href="/news-and-insights" onClick={toggleSidebar} className='text-black/80 pt-3'>
             <p>News & Insights</p>
           </Link>    
           <Link
             href="/contact-us"
             onClick={toggleSidebar}
-            className="bg-gradient-to-br from-[#5C1A25] via-[#7A2C38] to-[rgb(168,75,88)] mt-5
+            className="bg-linear-to-br from-[#5C1A25] via-[#7A2C38] to-[rgb(168,75,88)] mt-5
             pl-5 pr-3 py-2 rounded-full flex items-center justify-between gap-3 text-white 
             hover:opacity-90 transition-all duration-300 text-lg ease-in-out group"
           >

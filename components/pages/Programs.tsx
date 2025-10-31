@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
-import ProgramCard from "@/components/ProgramCard";
+import ProgramCard from "@/components/cards/ProgramCard";
 import { IoArrowForwardOutline } from "react-icons/io5";
 import Link from "next/link";
 
