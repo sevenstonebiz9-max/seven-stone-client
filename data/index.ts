@@ -212,7 +212,7 @@ export const articles: Article[] = [
     image: "/images/slider-2.jpg",
     coverImage: "/images/slider-2.jpg",
     date: "October 2025",
-    author: "Jane Mwangi – Head of SME Development",
+    author: "Seven Stone Team",
     content: `
       Sevenstone is empowering small and medium enterprises across Kenya
       through strategic partnerships and innovative finance models. By
@@ -235,7 +235,7 @@ export const articles: Article[] = [
     image: "/images/slider-1.jpg",
     coverImage: "/images/slider-1.jpg",
     date: "September 2025",
-    author: "Brian Otieno – Program Manager, Youth Development",
+    author: "Seven Stone Team",
     content: `
       Our youth empowerment programs foster innovation, leadership, and
       enterprise growth by providing young entrepreneurs with mentorship and
@@ -256,7 +256,7 @@ export const articles: Article[] = [
     image: "/images/image-4.jpeg",
     coverImage: "/images/image-4.jpeg",
     date: "August 2025",
-    author: "Dr. Samuel Kariuki – Director of Partnerships",
+    author: "Seven Stone Team",
     content: `
       Through public-private partnerships, Sevenstone is driving initiatives
       that promote long-term inclusion and empower local communities for
@@ -277,7 +277,7 @@ export const articles: Article[] = [
     image: "/images/slider-2.jpg",
     coverImage: "/images/slider-2.jpg",
     date: "July 2025",
-    author: "Grace Wanjiku – Women in Business Coordinator",
+    author: "Seven Stone Team",
     content: `
       Women-led enterprises continue to play a vital role in Africa’s economy,
       fostering innovation and sustainable solutions for future generations.
