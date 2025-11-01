@@ -35,11 +35,11 @@ const themes = [
 
 const AboutUs = () => {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen px-4 md:px-8">
       {/* Banner Section */}
-      <section className="relative w-full h-[55vh] md:h-[70vh] overflow-hidden">
+      <section className="relative w-full mt-20 lg:mt-22 min-h-[40vh] lg:min-h-[50vh] rounded-2xl overflow-hidden">
         <Image
-          src="/images/about-us-banner.jpg"
+          src="/images/about-us.jpg"
           alt="About Us Banner"
           fill
           priority
@@ -158,7 +158,7 @@ const AboutUs = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="relative bg-[url(/images/stats-img-3.jpg)] bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden"
+        className="relative bg-[url(/images/stats-img-4.jpg)] bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden rounded-2xl mt-30"
       >
         <div className="w-full min-h-[50vh] bg-black/60 flex items-center justify-center py-20 lg:py-0">
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
@@ -173,10 +173,11 @@ const AboutUs = () => {
                 <FaUsers className="mx-auto mb-2 w-8 h-8 text-white" />
               </div>
               <h2 className="text-5xl font-bold mb-2">
-                <NumberTickerContainer color="text-white" numberTickerValue={10000} />
+                <NumberTickerContainer color="text-white" numberTickerValue={5000} />
+                <span className="text-white text-4xl">+</span>
               </h2>
               <p className="text-lg text-white font-semibold opacity-90">
-                MSMEs & Entrepreneurs Supported
+                MSMEs & Youth Led Enterprises Impacted 
               </p>
             </motion.div>
 
@@ -214,7 +215,7 @@ const AboutUs = () => {
                 <span className="text-white text-4xl">+</span>
               </h2>
               <p className="text-lg font-semibold text-white opacity-90">
-                Partnerships with Corporates, Universities & Governments
+                Partnerships
               </p>
             </motion.div>
           </div>
@@ -227,7 +228,7 @@ const AboutUs = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
               Our Focus{" "}
-              <span className="text-[#5C1A25] italic font-serif">
+              <span className="text-[#5C1A25]  font-serif">
                 Sectors & Themes
               </span>
             </h2>

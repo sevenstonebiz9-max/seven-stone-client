@@ -69,7 +69,7 @@ export default function NewsPage({ limit }: NewsPageProps) {
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
             Latest{" "}
-            <span className="text-main-maroon italic font-serif">News</span>
+            <span className="text-main-maroon font-serif">News</span>
           </h1>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Explore all updates, thought leadership, and impact stories from

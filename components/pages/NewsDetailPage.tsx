@@ -26,9 +26,9 @@ export default function NewsDetailPage() {
     .filter(Boolean);
 
   return (
-    <main className="bg-gray-50 min-h-screen">
+    <main className="bg-gray-50 min-h-screen px-4 lg:px-8">
       {/* Hero Section */}
-      <section className="relative w-full h-[55vh] md:h-[70vh] overflow-hidden">
+      <section className="relative w-full rounded-2xl min-h-[40vh] lg:min-h-[50vh] mt-20 lg:mt-22 overflow-hidden">
         <Image
           src={article.coverImage || "/images/team-banner.jpg"}
           alt={article.title}
@@ -41,7 +41,7 @@ export default function NewsDetailPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="text-3xl md:text-5xl font-bold text-white text-center max-w-3xl leading-tight"
+            className="text-3xl md:text-4xl font-bold text-white text-center max-w-3xl leading-tight"
           >
             {article.title}
           </motion.h1>

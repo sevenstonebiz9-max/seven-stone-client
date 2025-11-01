@@ -20,11 +20,11 @@ const Programs = () => {
   };
 
   return (
-    <main className="w-full min-h-screen">
+    <main className="w-full min-h-screen px-4 lg:px-8">
       {/* Banner Section */}
-      <section className="relative w-full h-[55vh] md:h-[70vh] overflow-hidden">
+      <section className="relative w-full min-h-[40vh] lg:min-h-[50vh] rounded-2xl mt-20 lg:mt-22 overflow-hidden">
         <Image
-          src="/images/stats-img-2.jpg"
+          src="/images/OUR-PROGRAMS.jpg"
           alt="About Us Banner"
           fill
           priority
@@ -63,19 +63,19 @@ const Programs = () => {
       <section className="px-4 md:px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-20">
         {[
           {
-            imageSrc: "/images/imarika-fund.png",
+            imageSrc: "/images/IMARIKA-FUND.jpg",
             title: "Imarika Fund",
             description:
               "A blended finance vehicle designed to unlock capital for youth and women-led SMEs.",
           },
           {
-            imageSrc: "/images/waife.png",
+            imageSrc: "/images/waife.jpg",
             title: "WAIFE",
             description:
               "An incubator-accelerator model supporting women in agribusiness.",
           },
           {
-            imageSrc: "/images/faces-of-enterprise.png",
+            imageSrc: "/images/FACES-OF-ENTERPRISE.jpg",
             title: "Faces of Enterprise",
             description:
               "A storytelling and visibility platform that celebrates SMEs while motivating young people to see entrepreneurship as a pathway to employment.",
@@ -104,7 +104,7 @@ const Programs = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={fadeUp}
-        className="py-16 bg-gradient-to-r from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white text-center flex flex-col items-center"
+        className="py-16 bg-linear-to-r mb-10 rounded-2xl from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white text-center flex flex-col items-center"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Ready to Partner With Us?

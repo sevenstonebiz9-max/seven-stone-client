@@ -1,6 +1,6 @@
 'use client';
 
-// import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import tausiLogo from '@/public/seven-stone-logo.png';
 import Link from 'next/link';
@@ -9,22 +9,22 @@ import EventsDropdown from '@/components/dropdown/EventsDropdown';
 import { IoArrowForwardOutline } from 'react-icons/io5';
 
 const Navbar = () => {
-  // const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     setIsScrolled(window.scrollY > 5);
-  //   };
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
 
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => window.removeEventListener('scroll', handleScroll);
-  // }, []);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <div className="w-full z-50">
       <header
-        className={`fixed top-0 z-50 w-[94%] left-1/2 -translate-x-1/2 mt-4 flex items-center justify-between
-        py-3 px-4 lg:px-8 bg-white/60 shadow-xs transition-all duration-300 rounded-4xl backdrop-blur-md`}
+        className={`fixed top-0 z-50 left-1/2 -translate-x-1/2 mt-1 flex items-center justify-between
+        py-3 px-4 lg:px-8 bg-white/60  transition-all duration-300 rounded-4xl backdrop-blur-md ${isScrolled ? 'w-[94%] shadow-sm' : 'w-full'}`}
       >
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
@@ -50,6 +50,10 @@ const Navbar = () => {
         <nav className="hidden lg:flex items-center gap-7 text-black/60 font-semibold tracking-wide">
           <Link href="/" className="hover:text-main-maroon transition-all duration-200">
             Home
+          </Link>
+
+          <Link href="/about-us" className="hover:text-main-maroon transition-all duration-200">
+            About Us
           </Link>
 
           <Link href="/our-services" className="hover:text-main-maroon transition-all duration-200">
@@ -84,7 +88,11 @@ const Navbar = () => {
             Programs
           </Link>
 
-          <EventsDropdown
+          <Link href="/about-us/team" className="hover:text-main-maroon transition-all duration-200">
+            Our People
+          </Link>
+
+          {/* <EventsDropdown
             title="Our Company"
             items={[
               { label: 'Our Story', href: '/about-us' },
@@ -92,7 +100,7 @@ const Navbar = () => {
             ]}
             imageSrc="/images/image-1.jpg"
             menuWidth="12vw"
-          />
+          /> */}
 
           <Link href="/news-and-insights" className="hover:text-main-maroon transition-all duration-200">
             News & Insights

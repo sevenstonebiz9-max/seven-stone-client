@@ -6,11 +6,11 @@ import {motion} from 'framer-motion'
 
 const AllNews = () => {
   return (
-    <main>
+    <main className='px-4 lg:px-8'>
         {/* Banner Section */}
-        <section className="relative w-full h-[55vh] md:h-[70vh] overflow-hidden">
+        <section className="relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden rounded-2xl mt-20 lg:mt-22">
             <Image
-            src="/images/about-us-banner.jpg"
+            src="/images/theme-img-3.jpg"
             alt="About Us Banner"
             fill
             priority

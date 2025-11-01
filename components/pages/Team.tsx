@@ -13,11 +13,11 @@ const Team = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <main className="w-full min-h-screen">
+    <main className="w-full min-h-screen px-4 lg:px-8">
       {/* Banner Section */}
-      <section className="relative w-full h-[55vh] md:h-[70vh] overflow-hidden">
+      <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
         <Image
-          src="/images/team-banner.jpg"
+          src="/images/our-people-banner.jpg"
           alt="About Us Banner"
           fill
           priority
@@ -30,7 +30,7 @@ const Team = () => {
             transition={{ duration: 1 }}
             className="text-3xl md:text-6xl font-bold text-white text-center"
           >
-            Meet Our Team
+            Our People
           </motion.h1>
         </div>
       </section>

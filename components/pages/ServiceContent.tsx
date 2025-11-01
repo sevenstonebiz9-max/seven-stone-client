@@ -45,11 +45,11 @@ export default function ServiceContent() {
   ];
 
   return (
-    <main className="min-h-screen bg-white text-gray-800">
+    <main className="min-h-screen bg-white text-gray-800 px-4 lg:px-8">
       {/*  Banner Section  */}
-      <section className="relative w-full h-[55vh] md:h-[60vh] overflow-hidden">
+      <section className="rounded-2xl min-h-[40vh] lg:min-h-[50vh] mt-20 lg:mt-22 relative w-full overflow-hidden">
         <Image
-          src="/images/slider-2.jpg"
+          src="/images/WOMEN-&-YOUTH-EMPOWERMENT.jpg"
           alt="Our Services Banner"
           fill
           priority
@@ -140,7 +140,7 @@ export default function ServiceContent() {
       
 
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white text-center flex flex-col items-center">
+      <section className="py-16 bg-gradient-to-r my-10 rounded-2xl from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white text-center flex flex-col items-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Ready to Partner With Us?
         </h2>

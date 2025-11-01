@@ -17,30 +17,39 @@ import { FaPlay } from "react-icons/fa";
 const slides = [
   {
     id: 1,
-    image: "/images/slider-1.jpg",
+    image: "/images/home-page-bds.jpg",
     title: "Empowering Ideas, Enabling Growth",
     subtitle:
       "Sevenstone Investments Management Limited is an impact-focused enterprise and capital development firm that bridges the gap between ideas and finance. We connect entrepreneurs, SMEs and youth-led enterprises with the financial tools, mentorship and partnerships they need to grow, thrive and create sustainable impact.",
-    buttonText: "Explore Our Work",
+    buttonText: "Explore Our Impact",
     buttonLink: "/our-services",
   },
   {
     id: 2,
-    image: "/images/slider-2.jpg",
+    image: "/images/trusted-ecosytem.jpg",
     title: "Trusted ecosystem enabler and Strategic implementation partner",
     subtitle:
       "Building collaborative platforms that connect ideas, institutions and impact for sustainable enterprise growth.",
-    buttonText: "Explore Our Work",
-    buttonLink: "/our-services",
+    buttonText: "Collaborate with us",
+    buttonLink: "/programs",
   },
   {
     id: 3,
-    image: "/images/image-3.jpg",
+    image: "/images/Catalyst-for-Youth-led-enterprise-growth.jpg",
     title: "Catalyst for Youth-led enterprise growth",
     subtitle:
       "Inspiring, equipping and financing the next generation of entrepreneurs to lead Africa’s transformation.",
-    buttonText: "Explore Our Work",
+    buttonText: "View Events Gallery",
     buttonLink: "/our-services",
+  },
+  {
+    id: 4,
+    image: "/images/DRIVING-INCLUSIVE-AND-SUSTAINABLE-ECONOMIC-GROWTH.png",
+    title: "Driving Inclusive and Sustainable Economic Growth",
+    subtitle:
+      "Empowering enterprises that build stronger, more resilient communities.",
+    buttonText: "SChedule a Partnership Call",
+    buttonLink: "/about-us",
   },
 ];
 
@@ -81,10 +90,10 @@ export default function Hero() {
   const slide = slides[current];
 
   return (
-    <main>
+    <main className="px-4 lg:px-8">
       <section
         {...handlers}
-        className="relative w-full h-[92vh] lg:h-screen overflow-hidden bg-black"
+        className="relative w-full rounded-2xl min-h-[70vh] mt-20 md:mt-22 overflow-hidden bg-black"
       >
         {/* Smooth fade transition */}
         <AnimatePresence initial={false} mode="wait">
@@ -103,7 +112,7 @@ export default function Hero() {
               priority
               className="object-cover object-center"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+            <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/40 to-black/70" />
           </motion.div>
         </AnimatePresence>
 
@@ -114,7 +123,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: [0.25, 0.1, 0.25, 1] }}
-            className="text-4xl md:text-6xl font-bold mb-4 leading-tight drop-shadow-lg text-center"
+            className="text-4xl md:text-5xl font-bold mb-4 leading-tight drop-shadow-lg text-center capitalize"
           >
             {slide.title}
           </motion.h1>
@@ -150,7 +159,7 @@ export default function Hero() {
                 <IoArrowForwardOutline className="w-5 h-5 transform -rotate-45 group-hover:rotate-0 transition-all duration-500" />
               </div>
             </Link>
-            <Link
+            {/* <Link
               href="/contact-us"
               className="bg-gradient-to-br from-[#5C1A25] via-[#7A2C38] to-[#A84B58] w-fit border border-white/60
               pl-5 pr-3 py-2 rounded-full flex items-center gap-3 text-white 
@@ -163,7 +172,7 @@ export default function Hero() {
               >
                 <IoArrowForwardOutline className="w-5 h-5 transform -rotate-45 group-hover:rotate-0 transition-all duration-500" />
               </div>
-            </Link>
+            </Link> */}
           </motion.div>
         </div>
 

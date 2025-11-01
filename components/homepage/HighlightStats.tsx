@@ -13,9 +13,10 @@ const HighlightStats = () => {
                     <FaUsers className="mx-auto mb-2 w-8 h-8 text-white" />
                 </div>
                 <h2 className="text-5xl font-bold mb-2">
-                    <NumberTickerContainer numberTickerValue={10000} />
+                    <NumberTickerContainer numberTickerValue={5000} />
+                    <span className='text-black/80 text-4xl'>+</span>
                 </h2>
-                <p className="text-base font-medium opacity-90">MSMEs & Entrepreneurs Supported</p>
+                <p className="text-base font-medium opacity-90"> MSMEs & Youth Led Enterprises Impacted </p>
             </div>
 
             <div className="flex flex-col items-center gap-3">
@@ -37,7 +38,7 @@ const HighlightStats = () => {
                     <NumberTickerContainer numberTickerValue={20} />
                     <span className='text-black/80 text-4xl'>+</span>
                 </h2>
-                <p className="text-base font-medium opacity-90">Partnerships with Corporates, Universities & Governments</p>
+                <p className="text-base font-medium opacity-90">Partnerships</p>
             </div>
         </div>
     </section>
