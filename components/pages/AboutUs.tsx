@@ -158,7 +158,7 @@ const AboutUs = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="relative bg-[url(/images/about-us-stats-img.webp)] bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden rounded-2xl mt-30"
+        className="relative bg-[url(/images/stats-img.webp)] bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden rounded-2xl mt-30"
       >
         <div className="w-full min-h-[50vh] bg-black/60 flex items-center justify-center py-20 lg:py-0">
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">

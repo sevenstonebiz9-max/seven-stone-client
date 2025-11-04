@@ -63,7 +63,7 @@ const Programs = () => {
       <section className="px-4 lg:px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-20">
         {[
           {
-            imageSrc: "/images/IMARIKA-FUND.jpg",
+            imageSrc: "/images/IMARIKA-FUND.webp",
             title: "Imarika Fund",
             description:
               "A blended finance vehicle designed to unlock capital for youth and women-led SMEs.",
@@ -75,7 +75,7 @@ const Programs = () => {
               "An incubator-accelerator model supporting women in agribusiness.",
           },
           {
-            imageSrc: "/images/FACES-OF-ENTERPRISE.jpg",
+            imageSrc: "/images/FACES-OF-ENTERPRISE.webp",
             title: "Faces of Enterprise",
             description:
               "A storytelling and visibility platform that celebrates SMEs while motivating young people to see entrepreneurship as a pathway to employment.",
