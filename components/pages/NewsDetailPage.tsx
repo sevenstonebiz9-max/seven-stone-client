@@ -87,7 +87,7 @@ export default function NewsDetailPage() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             onClick={() => router.push("/news-and-insights")}
-            className="bg-linear-to-br from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white px-8 py-3 cursor-pointer rounded-full shadow-md hover:bg-[#7A2C38] transition-all"
+            className="bg-linear-to-br from-main-maroon via-[#7A2C38] to-[#A84B58] text-white px-8 py-3 cursor-pointer rounded-full shadow-md hover:bg-[#7A2C38] transition-all"
           >
             ← Back to News
           </motion.button>

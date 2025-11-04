@@ -78,7 +78,7 @@ const TeamSectionContainer = ({ teamTitle, teamSubline, teamCard }: TeamSectionC
                   {selectedMember.name}
                 </h4>
                 <p className="text-gray-600 mb-4">{selectedMember.title}</p>
-                <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+                <p className="text-gray-700 leading-relaxed text-justify whitespace-pre-line">
                   {selectedMember.story}
                 </p>
               </motion.div>

@@ -47,7 +47,7 @@ const Navbar = () => {
         </Link>
 
         {/* Navigation */}
-        <nav className="hidden lg:flex items-center gap-7 text-black/60 font-semibold tracking-wide">
+        <nav className="hidden lg:flex items-center gap-7 text-black/60 font-semibold tracking-wide text-sm">
           <Link href="/" className="hover:text-main-maroon transition-all duration-200">
             Home
           </Link>

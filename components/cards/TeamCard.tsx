@@ -26,7 +26,7 @@ const TeamCard = ({ name, title, imageSrc, linkedInUrl, onReadMore }: TeamCardPr
 
         {/* Name/Title Box */}
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white/20 backdrop-blur-lg shadow-md rounded-xl px-5 py-3 w-[94%] border-2 border-white/20">
-          <h4 className="text-lg font-semibold text-white">{name}</h4>
+          <h4 className="text-lg font-semibold text-white line-clamp-1">{name}</h4>
           <p className="text-white text-sm line-clamp-1">{title}</p>
         </div>
       </div>

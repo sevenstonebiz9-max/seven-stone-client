@@ -51,7 +51,7 @@ const Team = () => {
           className="flex-1"
         >
           <Image
-            src="/images/LOISE-PROFILE-PIC.png"
+            src="/images/LOISE-PROFILE-PIC-2-WEB.png"
             alt="CEO Loise Muiruri"
             width={450}
             height={500}
@@ -135,7 +135,7 @@ const Team = () => {
               <p className="text-gray-600 mb-4">
                 Founder & Chief Executive Officer
               </p>
-              <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+              <p className="text-gray-700 text-justify leading-relaxed whitespace-pre-line">
                 Loise Muiruri is a Certified Investment and Financial Analyst (CIFA) with over 12
                 years of experience in the Banking Sector, SME development and impact
                 entrepreneurship. As the CEO of Sevenstone, Loise has positioned Sevenstone as a
