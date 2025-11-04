@@ -17,7 +17,7 @@ import { FaPlay } from "react-icons/fa";
 const slides = [
   {
     id: 1,
-    image: "/images/home-page-bds.jpg",
+    image: "/images/home-page-bds.webp",
     title: "Empowering Ideas, Enabling Growth",
     subtitle:
       "Sevenstone Investments Management Limited is an impact-focused enterprise and capital development firm that bridges the gap between ideas and finance. We connect entrepreneurs, SMEs and youth-led enterprises with the financial tools, mentorship and partnerships they need to grow, thrive and create sustainable impact.",
@@ -26,7 +26,7 @@ const slides = [
   },
   {
     id: 2,
-    image: "/images/trusted-ecosytem.jpg",
+    image: "/images/trusted-ecosystem.jpeg",
     title: "Trusted ecosystem enabler and Strategic implementation partner",
     subtitle:
       "Building collaborative platforms that connect ideas, institutions and impact for sustainable enterprise growth.",
@@ -35,7 +35,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "/images/Catalyst-for-Youth-led-enterprise-growth.jpg",
+    image: "/images/Catalyst-for-Youth-led-enterprise-growth.webp",
     title: "Catalyst for Youth-led enterprise growth",
     subtitle:
       "Inspiring, equipping and financing the next generation of entrepreneurs to lead Africa’s transformation.",
@@ -44,7 +44,7 @@ const slides = [
   },
   {
     id: 4,
-    image: "/images/DRIVING-INCLUSIVE-AND-SUSTAINABLE-ECONOMIC-GROWTH.png",
+    image: "/images/DRIVING-INCLUSIVE-AND-SUSTAINABLE-ECONOMIC-GROWTH.webp",
     title: "Driving Inclusive and Sustainable Economic Growth",
     subtitle:
       "Empowering enterprises that build stronger, more resilient communities.",

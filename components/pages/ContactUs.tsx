@@ -19,7 +19,7 @@ const ContactUs = () => {
       {/* ===== Banner Section ===== */}
       <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
         <Image
-          src="/images/slider-1.jpg"
+          src="/images/our-people-banner.webp"
           alt="Contact Banner"
           fill
           priority

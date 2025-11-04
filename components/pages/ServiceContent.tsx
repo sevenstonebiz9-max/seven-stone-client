@@ -49,7 +49,7 @@ export default function ServiceContent() {
       {/*  Banner Section  */}
       <section className="rounded-2xl min-h-[40vh] lg:min-h-[50vh] mt-20 lg:mt-22 relative w-full overflow-hidden">
         <Image
-          src="/images/WOMEN-&-YOUTH-EMPOWERMENT.jpg"
+          src="/images/WOMEN-&-YOUTH-EMPOWERMENT.webp"
           alt="Our Services Banner"
           fill
           priority

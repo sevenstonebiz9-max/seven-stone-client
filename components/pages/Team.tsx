@@ -17,7 +17,7 @@ const Team = () => {
       {/* Banner Section */}
       <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
         <Image
-          src="/images/our-people-banner.jpg"
+          src="/images/our-people-banner.webp"
           alt="About Us Banner"
           fill
           priority
@@ -36,72 +36,74 @@ const Team = () => {
       </section>
 
       {/* CEO Section */}
-      <motion.section
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-        className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 px-4 md:px-15 py-15 mb-20 bg-gray-100"
-      >
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+      <section className="bg-gray-100 mt-4 rounded-2xl">
+        <motion.section
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="flex-1"
+          className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 px-4 md:px-10 py-15 mb-20 2xl:max-w-7xl 2xl:mx-auto"
         >
-          <Image
-            src="/images/LOISE-PROFILE-PIC-2-WEB.png"
-            alt="CEO Loise Muiruri"
-            width={450}
-            height={500}
-            priority
-            className="object-cover object-center rounded-2xl"
-          />
-        </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="flex-1"
+          >
+            <Image
+              src="/images/LOISE-PROFILE-PIC-2-WEB.png"
+              alt="CEO Loise Muiruri"
+              width={450}
+              height={500}
+              priority
+              className="object-cover object-center rounded-2xl"
+            />
+          </motion.div>
 
-        <div className="flex-1 flex flex-col gap-4 lg:pr-10">
-          <h2 className="text-heading-main font-bold text-3xl md:text-4xl">
-            FA LOISE MUIRURI
-          </h2>
-          <p className="text-main-maroon font-semibold text-lg">
-            Founder & Chief Executive Officer
-          </p>
-          <p className="text-paragraph-main">
-            Loise Muiruri is a Certified Investment and Financial Analyst (CIFA)
-            with over 12 years of experience in the Banking Sector, SME
-            development and impact entrepreneurship. As the CEO of Sevenstone,
-            Loise has positioned Sevenstone as a catalyst for enterprise growth
-            in Kenya, connecting entrepreneurs, women and youth-led businesses
-            to finance, mentorship and markets.
-          </p>
-          <p className="text-paragraph-main">
-            Under her leadership, Sevenstone has become a trusted ecosystem
-            enabler and strategic partner to corporates, academia and
-            development organizations working to strengthen the MSME landscape.
-            Her vision is driven by a simple belief that transformative ideas
-            deserve access to finance and the right ecosystem to thrive.
-          </p>
+          <div className="flex-1 flex flex-col gap-4 lg:pr-10">
+            <h2 className="text-heading-main font-bold text-3xl md:text-4xl">
+              FA LOISE MUIRURI
+            </h2>
+            <p className="text-main-maroon font-semibold text-lg">
+              Founder & Chief Executive Officer
+            </p>
+            <p className="text-paragraph-main">
+              Loise Muiruri is a Certified Investment and Financial Analyst (CIFA)
+              with over 12 years of experience in the Banking Sector, SME
+              development and impact entrepreneurship. As the CEO of Sevenstone,
+              Loise has positioned Sevenstone as a catalyst for enterprise growth
+              in Kenya, connecting entrepreneurs, women and youth-led businesses
+              to finance, mentorship and markets.
+            </p>
+            <p className="text-paragraph-main">
+              Under her leadership, Sevenstone has become a trusted ecosystem
+              enabler and strategic partner to corporates, academia and
+              development organizations working to strengthen the MSME landscape.
+              Her vision is driven by a simple belief that transformative ideas
+              deserve access to finance and the right ecosystem to thrive.
+            </p>
 
-          <div className="flex items-center gap-8 mt-6">
-            <button
-              onClick={() => setShowModal(true)}
-              className="text-main-maroon flex items-center gap-2 cursor-pointer hover:text-[#7A2C38] transition"
-            >
-              Read More
-              <FaArrowRightLong />
-            </button>
+            <div className="flex items-center gap-8 mt-6">
+              <button
+                onClick={() => setShowModal(true)}
+                className="text-main-maroon flex items-center gap-2 cursor-pointer hover:text-[#7A2C38] transition"
+              >
+                Read More
+                <FaArrowRightLong />
+              </button>
 
-            <Link
-              href="/"
-              className="flex text-white items-center gap-2 bg-gradient-to-br from-main-maroon via-[#7A2C38] to-[#A84B58] rounded-full px-5 py-2 shadow-sm w-fit"
-            >
-              <span>Follow</span>
-              <FaLinkedin className="w-6 h-6" />
-            </Link>
+              <Link
+                href="/"
+                className="flex text-white items-center gap-2 bg-linear-to-br from-main-maroon via-[#7A2C38] to-[#A84B58] rounded-full px-5 py-2 shadow-sm w-fit"
+              >
+                <span>Follow</span>
+                <FaLinkedin className="w-6 h-6" />
+              </Link>
+            </div>
           </div>
-        </div>
-      </motion.section>
+        </motion.section>
+      </section>
 
       {/* CEO Modal */}
       <AnimatePresence>

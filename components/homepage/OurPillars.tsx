@@ -9,22 +9,22 @@ const pillars = [
   {
     title: 'Capital Development',
     desc: 'We design and implement innovative financing models that connect promising enterprises to the right capital. Our goal is to ensure that every viable idea has access to the resources it needs to scale sustainably.',
-    img: '/images/capital-dev.png',
+    img: '/images/capital-dev.webp',
   },
   {
     title: 'Ecosystem Building',
     desc: 'We bring together key players to create collaborative platforms that strengthen the entrepreneurship ecosystem. Through events, policy dialogues and research-driven initiatives, we foster connections that drive growth and innovation.',
-    img: '/images/trusted-ecosytem.jpg',
+    img: '/images/trusted-ecosytem.webp',
   },
   {
     title: 'Business Development Services',
     desc: 'We equip entrepreneurs with the skills, tools and mentorship they need to grow and compete effectively.',
-    img: '/images/home-page-bds.jpg',
+    img: '/images/home-page-bds.webp',
   },
   {
     title: 'Youth and Women Empowerment',
     desc: 'We are committed to unlocking the potential of young people and women through entrepreneurship and access to opportunity. Our programs build confidence, capacity and connections for inclusive participation in business and finance.',
-    img: '/images/youth-and-women.png',
+    img: '/images/youth-and-women.webp',
   },
 ];
 

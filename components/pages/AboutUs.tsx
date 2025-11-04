@@ -39,7 +39,7 @@ const AboutUs = () => {
       {/* Banner Section */}
       <section className="relative w-full mt-20 lg:mt-22 min-h-[40vh] lg:min-h-[50vh] rounded-2xl overflow-hidden">
         <Image
-          src="/images/about-us.jpg"
+          src="/images/about-us.webp"
           alt="About Us Banner"
           fill
           priority

@@ -171,8 +171,8 @@ export const articles: Article[] = [
     title: "Empowering SMEs Through Innovative Financial Solutions",
     excerpt:
       "Discover how Sevenstone is transforming the SME landscape across Kenya through accessible finance and strategic partnerships.",
-    image: "/images/slider-2.jpg",
-    coverImage: "/images/slider-2.jpg",
+    image: "/images/about-us.webp",
+    coverImage: "/images/about-us.webp",
     date: "October 2025",
     author: "Seven Stone Team",
     content: `
@@ -194,8 +194,8 @@ export const articles: Article[] = [
     title: "Youth-Led Enterprises: Building the Next Generation of Entrepreneurs",
     excerpt:
       "Our programs equip young innovators with tools and capital to scale ideas into sustainable enterprises.",
-    image: "/images/slider-1.jpg",
-    coverImage: "/images/slider-1.jpg",
+    image: "/images/waife.webp",
+    coverImage: "/images/waife.webp",
     date: "September 2025",
     author: "Seven Stone Team",
     content: `

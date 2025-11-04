@@ -24,7 +24,7 @@ const Programs = () => {
       {/* Banner Section */}
       <section className="relative w-full min-h-[40vh] lg:min-h-[50vh] rounded-2xl mt-20 lg:mt-22 overflow-hidden">
         <Image
-          src="/images/OUR-PROGRAMS.jpg"
+          src="/images/OUR-PROGRAMS.webp"
           alt="About Us Banner"
           fill
           priority
@@ -44,7 +44,7 @@ const Programs = () => {
 
       {/* Intro Section */}
       <motion.section
-        className="flex flex-col lg:flex-row justify-between px-4 md:px-16 gap-6 py-20"
+        className="flex flex-col lg:flex-row justify-between px-4 lg:px-16 gap-6 py-20"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -60,7 +60,7 @@ const Programs = () => {
       </motion.section>
 
       {/* Programs Section */}
-      <section className="px-4 md:px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-20">
+      <section className="px-4 lg:px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-20">
         {[
           {
             imageSrc: "/images/IMARIKA-FUND.jpg",

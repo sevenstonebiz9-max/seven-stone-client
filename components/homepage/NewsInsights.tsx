@@ -58,7 +58,7 @@ export default function NewsPage({ limit }: NewsPageProps) {
   const displayedArticles = limit ? articles.slice(0, limit) : articles;
 
   return (
-    <main className="w-full min-h-screen py-20">
+    <main className="w-full min-h-[50vh] py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header animation */}
         <motion.div
