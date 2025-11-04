@@ -104,7 +104,7 @@ const AboutUs = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="bg-gray-100 py-30 px-4 md:px-15 flex flex-col lg:flex-row items-center mt-15 gap-10"
+        className="bg-gray-100 py-30 px-4 md:px-15 flex flex-col lg:flex-row items-center mt-15 gap-10 rounded-2xl"
       >
         <motion.div
           initial={{ opacity: 0, x: -40 }}
@@ -158,7 +158,7 @@ const AboutUs = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="relative bg-[url(/images/stats-img-4.webp)] bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden rounded-2xl mt-30"
+        className="relative bg-[url(/images/about-us-stats-img.webp)] bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden rounded-2xl mt-30"
       >
         <div className="w-full min-h-[50vh] bg-black/60 flex items-center justify-center py-20 lg:py-0">
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">

@@ -48,7 +48,7 @@ const slides = [
     title: "Driving Inclusive and Sustainable Economic Growth",
     subtitle:
       "Empowering enterprises that build stronger, more resilient communities.",
-    buttonText: "SChedule a Partnership Call",
+    buttonText: "Schedule a Partnership Call",
     buttonLink: "/about-us",
   },
 ];
