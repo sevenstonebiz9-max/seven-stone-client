@@ -114,7 +114,7 @@ const AboutUs = () => {
           className="flex-1"
         >
           <Image
-            src="/images/capital-dev.png"
+            src="/images/capital-dev.webp"
             alt="Contact Banner"
             width={600}
             height={700}
