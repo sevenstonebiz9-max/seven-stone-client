@@ -24,7 +24,7 @@ export default function ServiceContent() {
     {
       title: "Ecosystem Building & Convenings",
       desc: "Sevenstone operates as an ecosystem enabler and convener, bringing together stakeholders across academia, government, development partners, corporates and the private sector to co-create solutions for MSME growth. We work to strengthen the linkages between financial institutions, policy actors, enterprise support organizations (ESOs) and entrepreneurs. Our ecosystem-building model emphasizes collaboration over competition, enabling a vibrant space for shared learning, innovation and policy dialogue. ",
-      img: "/images/ecosystem-building-4.jpg",
+      img: "/images/ecosystem-building-4.webp",
       icon: <FaSeedling size={26} />,
       tagline: "Entrepreneurship cannot thrive in Isolation",
     },
@@ -140,7 +140,7 @@ export default function ServiceContent() {
       
 
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r my-10 rounded-2xl from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white text-center flex flex-col items-center">
+      <section className="py-16 bg-linear-to-r my-10 rounded-2xl from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white text-center flex flex-col items-center px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Ready to Partner With Us?
         </h2>
@@ -150,7 +150,7 @@ export default function ServiceContent() {
         </p>
         <Link
           href="/contact-us"
-          className="bg-gradient-to-br from-[#5C1A25] via-[#7A2C38] to-[#A84B58]
+          className="bg-linear-to-br from-[#5C1A25] via-[#7A2C38] to-[#A84B58]
           pl-5 pr-3 py-2 rounded-full flex items-center gap-3 text-white 
           hover:opacity-90 transition-all duration-300 ease-in-out group w-fit"
         >

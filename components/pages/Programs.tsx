@@ -69,7 +69,7 @@ const Programs = () => {
               "A blended finance vehicle designed to unlock capital for youth and women-led SMEs.",
           },
           {
-            imageSrc: "/images/waife.jpg",
+            imageSrc: "/images/waife.webp",
             title: "WAIFE",
             description:
               "An incubator-accelerator model supporting women in agribusiness.",
@@ -104,7 +104,7 @@ const Programs = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={fadeUp}
-        className="py-16 bg-linear-to-r mb-10 rounded-2xl from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white text-center flex flex-col items-center"
+        className="py-16 px-4 bg-linear-to-r mb-10 rounded-2xl from-[#5C1A25] via-[#7A2C38] to-[#A84B58] text-white text-center flex flex-col items-center"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Ready to Partner With Us?
