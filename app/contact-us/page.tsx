@@ -1,5 +1,11 @@
 import ContactUs from '@/components/pages/ContactUs'
+import { Metadata } from 'next'
 
+
+export const metadata: Metadata = {
+  title: "Contact Us - Sevenstone ltd",
+  description: "Reach To Us for any enquiry.",
+}
 
 const page = () => {
   return (
