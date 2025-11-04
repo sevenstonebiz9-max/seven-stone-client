@@ -158,9 +158,16 @@ const AboutUs = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="relative bg-[url(/images/stats-img.webp)] bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden rounded-2xl mt-30"
+        className="relative bg-black bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden rounded-2xl mt-30"
       >
-        <div className="w-full min-h-[50vh] bg-black/60 flex items-center justify-center py-20 lg:py-0">
+        <Image
+          src="/images/stats-img.webp"
+          alt="About Us Banner"
+          fill
+          priority
+          className="object-cover object-center w-full min-h-[50vh] z-10"
+        />
+        <div className="absolute w-full min-h-[50vh] bg-black/60 flex items-center justify-center py-20 lg:py-0 z-20">
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
