@@ -36,7 +36,7 @@ const Team = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="text-xl font-nedium text-white text-center"
+            className="text-xl lg:text-2xl font-nedium text-white text-center"
           >
              The Engine Behind The Vision
           </motion.p>
