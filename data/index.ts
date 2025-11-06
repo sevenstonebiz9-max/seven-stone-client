@@ -1,4 +1,5 @@
 import { Article } from "@/types/articlesTypes";
+import { Program } from "@/types/programsTypes";
 
 export const advisoryTeam = [
 
@@ -252,3 +253,31 @@ export const articles: Article[] = [
   },
 ];
 
+
+export const programs: Program[] = [
+  {
+    slug: '254-Youth-Entrepreneurship-Awards-&-Mentorship-Program',
+    title: '254 Youth Entrepreneurship Awards & Mentorship Program',
+    description: 'This program aims to empower youth through mentorship and awards...',
+    images: [
+      '/images/254-YEAMP-PHOTOS/image-1.jpg',
+      '/images/254-YEAMP-PHOTOS/image-2.jpg',
+      '/images/254-YEAMP-PHOTOS/image-3.jpg',
+      '/images/254-YEAMP-PHOTOS/image-4.jpg',
+      '/images/254-YEAMP-PHOTOS/image-5.jpg',
+      '/images/254-YEAMP-PHOTOS/image-6.jpg',
+      '/images/254-YEAMP-PHOTOS/image-7.jpg',
+    ],
+  },
+  {
+    slug: 'graduating-queens',
+    title: 'Kiambu County Youth Innovation & Entrepreneurship Week',
+    description: 'A week-long celebration of youth innovation...',
+    images: [
+      '/images/graduating-1.jpg',
+      '/images/graduating-2.jpg',
+      '/images/graduating-3.jpg',
+    ],
+  },
+  // Add more programs
+];

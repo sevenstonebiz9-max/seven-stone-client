@@ -23,7 +23,7 @@ const Team = () => {
           priority
           className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/60 flex flex-col gap-3 items-center justify-center">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -32,6 +32,14 @@ const Team = () => {
           >
             Our People
           </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="text-xl font-nedium text-white text-center"
+          >
+             The Engine Behind The Vision
+          </motion.p>
         </div>
       </section>
 

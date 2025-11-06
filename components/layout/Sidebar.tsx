@@ -38,19 +38,15 @@ const Sidebar = () => {
                 items={[
                   {
                     label: '254 Youth Entrepreneurship Awards & Mentorship Program',
-                    href: '/programmes/tausi-first-initiative',
+                    href: '/programs/254-youth-entrepreneurship-awards',
                   },
                   {
                     label: 'Kiambu County Youth Innovation & Entrepreneurship Week',
-                    href: '/programmes/graduating-queens',
+                    href: '/programs/kiambu-youth-week',
                   },
                   {
                     label: 'Zetech University Research & Innovation Week',
-                    href: '/programmes/graduating-queens',
-                  },
-                  {
-                    label: 'Kiambu County Youth Awards',
-                    href: '/programmes/graduating-queens',
+                    href: '/programs/zetech-research-week',
                   },
                 ]}
               />
@@ -65,7 +61,7 @@ const Sidebar = () => {
             <p>About Us</p>
           </Link>   
           <Link href="/about-us/team" onClick={toggleSidebar} className='text-black/80 pt-3'>
-            <p>Our Team</p>
+            <p>Our People</p>
           </Link>   
           <Link href="/news-and-insights" onClick={toggleSidebar} className='text-black/80 pt-3'>
             <p>News & Insights</p>

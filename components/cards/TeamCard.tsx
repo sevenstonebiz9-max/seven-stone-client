@@ -21,7 +21,7 @@ const TeamCard = ({ name, title, imageSrc, linkedInUrl, onReadMore }: TeamCardPr
           alt={name || 'Team member'}
           width={450}
           height={500}
-          className="object-cover object-center w-full h-[450px] group-hover:scale-105 transition-transform duration-500"
+          className="object-cover object-center w-full max-h-[450px] group-hover:scale-105 transition-transform duration-500"
         />
 
         {/* Name/Title Box */}
