@@ -4,15 +4,16 @@ import Gallery from "@/components/pages/Gallery";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
- const galleryImages = [
+
+export default function ZetechResearchWeek() {
+
+  const galleryImages = [
     "/images/ZETECH-RESEARCH/image-1.webp",
     "/images/ZETECH-RESEARCH/image-2.webp",
     "/images/ZETECH-RESEARCH/image-3.webp",
     "/images/ZETECH-RESEARCH/image-4.webp",
     "/images/ZETECH-RESEARCH/image-5.webp",
   ];
-
-const ZetechResearchWeek = () => {
   
   return (
     <main className="min-h-screen bg-white px-4 lg:px-8">
@@ -22,7 +23,7 @@ const ZetechResearchWeek = () => {
               alt="Zetech University Research and Innovation Week"
               fill
               priority
-              className="object-cover object-center w-full"
+              className="object-cover object-center"
           />
           <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
           <motion.h1
@@ -52,4 +53,3 @@ const ZetechResearchWeek = () => {
   );
 }
 
-export default ZetechResearchWeek;

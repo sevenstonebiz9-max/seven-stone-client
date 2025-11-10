@@ -4,7 +4,10 @@ import Gallery from "@/components/pages/Gallery";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
- const galleryImages = [
+
+export default function KiambuYouthWeek() {
+
+   const galleryImages = [
     "/images/KIAMBU-COUNTY-YOUTH/image-1.jpg",
     "/images/KIAMBU-COUNTY-YOUTH/image-2.jpg",
     "/images/KIAMBU-COUNTY-YOUTH/image-3.jpg",
@@ -24,8 +27,6 @@ import { motion } from "framer-motion";
     "/images/KIAMBU-COUNTY-YOUTH/image-17.jpg",
     "/images/KIAMBU-COUNTY-YOUTH/image-18.jpg",
   ];
-
-const KiambuYouthWeek = () => {
   
   return (
     <main className="min-h-screen bg-white px-4 lg:px-8">
@@ -64,5 +65,3 @@ const KiambuYouthWeek = () => {
     </main>
   );
 }
-
-export default KiambuYouthWeek;
