@@ -20,7 +20,7 @@ export default function YouthEntrepreneurshipPage() {
       <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
           <Image
               src="/images/254-YEAMP-PHOTOS/image-6.jpg"
-              alt="Contact Banner"
+              alt="254 Youth Entrepreneurship Awards & Mentorship Program"
               fill
               priority
               className="object-cover object-center"
