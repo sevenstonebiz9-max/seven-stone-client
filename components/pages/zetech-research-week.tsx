@@ -5,11 +5,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
  const galleryImages = [
-    "/images/ZETECH-RESEARCH/image-1.jpg",
-    "/images/ZETECH-RESEARCH/image-2.jpg",
-    "/images/ZETECH-RESEARCH/image-3.jpg",
-    "/images/ZETECH-RESEARCH/image-4.jpg",
-    "/images/ZETECH-RESEARCH/image-5.jpeg",
+    "/images/ZETECH-RESEARCH/image-1.webp",
+    "/images/ZETECH-RESEARCH/image-2.webp",
+    "/images/ZETECH-RESEARCH/image-3.webp",
+    "/images/ZETECH-RESEARCH/image-4.webp",
+    "/images/ZETECH-RESEARCH/image-5.webp",
   ];
 
 const ZetechResearchWeek = () => {
