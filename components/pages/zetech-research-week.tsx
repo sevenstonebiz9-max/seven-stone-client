@@ -16,13 +16,13 @@ const ZetechResearchWeek = () => {
   
   return (
     <main className="min-h-screen bg-white px-4 lg:px-8">
-      <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
+       <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
           <Image
               src="/images/ZETECH-RESEARCH/image-2.webp"
               alt="Zetech University Research and Innovation Week"
               fill
               priority
-              className="object-cover object-center"
+              className="object-cover object-center w-full"
           />
           <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
           <motion.h1

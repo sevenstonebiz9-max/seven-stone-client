@@ -29,7 +29,7 @@ const KiambuYouthWeek = () => {
   
   return (
     <main className="min-h-screen bg-white px-4 lg:px-8">
-      <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
+       <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
           <Image
               src="/images/KIAMBU-COUNTY-YOUTH/image-16.jpg"
               alt="Kiambu County Youth Innovation and Entrepreneurship Week"
