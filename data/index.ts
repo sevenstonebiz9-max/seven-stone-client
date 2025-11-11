@@ -143,7 +143,7 @@ export const sectorAdvisoryMeambers = [
     {
       name: 'Eric Kiriko Mwaura',
       title: 'Sector Advisory Member – Governance, Legal and Policy Affairs',
-      imageSrc: '/images/team-avatar-2.png',
+      imageSrc: '/images/erick.jpg',
       linkedInUrl: 'https://linkedin.com/in/jane-doe',
       story:
         `
