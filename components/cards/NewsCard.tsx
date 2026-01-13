@@ -6,7 +6,7 @@ import { motion, Variants } from "framer-motion";
 import { IoArrowForwardOutline } from "react-icons/io5";
 
 export interface NewsCardProps {
-  id: number;
+  id: string;
   title: string;
   excerpt: string;
   image: string;

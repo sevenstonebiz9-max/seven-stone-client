@@ -93,7 +93,7 @@ const AboutUs = () => {
             width={600}
             height={700}
             priority
-            className="object-cover object-center rounded-2xl"
+            className="object-cover rounded-2xl"
           />
         </motion.div>
       </motion.section>
@@ -158,76 +158,90 @@ const AboutUs = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="relative bg-black bg-no-repeat bg-center bg-cover w-full min-h-[50vh] overflow-hidden rounded-2xl mt-30"
+        className="relative bg-black w-full min-h-[70vh] rounded-2xl mt-32"
       >
         <Image
           src="/images/stats-img.webp"
           alt="About Us Banner"
           fill
           priority
-          className="object-cover object-center w-full min-h-[50vh] z-10"
+          className="object-cover z-0 rounded-2xl"
         />
-        <div className="absolute w-full min-h-[50vh] bg-black/60 flex items-center justify-center py-20 lg:py-0 z-20">
-          <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="flex flex-col items-center gap-3"
-            >
-              <div className="flex items-center justify-center w-15 h-15 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md">
-                <FaUsers className="mx-auto mb-2 w-8 h-8 text-white" />
-              </div>
-              <h2 className="text-5xl font-bold mb-2">
-                <NumberTickerContainer color="text-white" numberTickerValue={5000} />
-                <span className="text-white text-4xl">+</span>
-              </h2>
-              <p className="text-lg text-white font-semibold opacity-90">
-                MSMEs & Youth Led Enterprises Impacted 
-              </p>
-            </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="flex flex-col items-center gap-3"
-            >
-              <div className="flex items-center justify-center w-15 h-15 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md">
-                <FaCalendarAlt className="mx-auto mb-2 w-8 h-8 text-white" />
-              </div>
-              <h2 className="text-5xl font-bold mb-2">
-                <NumberTickerContainer color="text-white" numberTickerValue={7} />
-                <span className="text-white text-4xl">+</span>
-              </h2>
-              <p className="text-lg text-white font-semibold text-whhite opacity-90">
-                Years of Impact in Kenya
-              </p>
-            </motion.div>
+        {/* Overlay */}
+        <div className="absolute inset-0 w-full min-h-[70vh] bg-black/60 rounded-2xl" />
 
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              viewport={{ once: true }}
-              className="flex flex-col items-center gap-3"
-            >
-              <div className="flex items-center justify-center w-15 h-15 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md">
-                <FaHandshake className="mx-auto mb-2 w-8 h-8 text-white" />
-              </div>
-              <h2 className="text-5xl font-bold mb-2">
-                <NumberTickerContainer color="text-white" numberTickerValue={20} />
-                <span className="text-white text-4xl">+</span>
-              </h2>
-              <p className="text-lg font-semibold text-white opacity-90">
-                Partnerships
-              </p>
-            </motion.div>
-          </div>
+        <div className="px-6 grid grid-cols-1 md:grid-cols-3 items-center gap-12 w-full min-h-[70vh] z-20 py-20 lg:py-0">
+          
+          {/* Stat 1 */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            viewport={{ once: true }}
+            className="flex flex-col items-center gap-3"
+          >
+            <div className="flex items-center justify-center w-16 h-16 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md">
+              <FaUsers className="w-8 h-8 text-white" />
+            </div>
+
+            <h2 className="text-5xl font-bold text-white z-20">
+              <NumberTickerContainer color="text-white" numberTickerValue={5000} />
+              <span className="text-4xl">+</span>
+            </h2>
+
+            <p className="text-lg text-white text-center font-semibold opacity-90">
+              MSMEs & Youth Led Enterprises Impacted
+            </p>
+          </motion.div>
+
+          {/* Stat 2 */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="flex flex-col items-center gap-3"
+          >
+            <div className="flex items-center justify-center w-16 h-16 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md">
+              <FaCalendarAlt className="w-8 h-8 text-white" />
+            </div>
+
+            <h2 className="text-5xl font-bold text-white z-20">
+              <NumberTickerContainer color="text-white" numberTickerValue={7} />
+              <span className="text-4xl">+</span>
+            </h2>
+
+            <p className="text-lg text-white font-semibold opacity-90">
+              Years of Impact in Kenya
+            </p>
+          </motion.div>
+
+          {/* Stat 3 */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            viewport={{ once: true }}
+            className="flex flex-col items-center gap-3"
+          >
+            <div className="flex items-center justify-center w-16 h-16 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md">
+              <FaHandshake className="w-8 h-8 text-white" />
+            </div>
+
+            <h2 className="text-5xl font-bold text-white z-20">
+              <NumberTickerContainer color="text-white" numberTickerValue={20} />
+              <span className="text-4xl">+</span>
+            </h2>
+
+            <p className="text-lg text-white font-semibold opacity-90">
+              Partnerships
+            </p>
+          </motion.div>
+
         </div>
       </motion.section>
+
 
       {/* Our focus and themes */}
       <section className="py-24 bg-[#FFFDF9]">
@@ -235,7 +249,7 @@ const AboutUs = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
               Our Focus{" "}
-              <span className="text-[#5C1A25]  font-serif">
+              <span className="text-main-maroon font-serif">
                 Sectors & Themes
               </span>
             </h2>

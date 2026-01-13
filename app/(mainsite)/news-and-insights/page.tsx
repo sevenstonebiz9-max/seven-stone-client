@@ -4,8 +4,16 @@ import AnimatedBanner from '@/components/ui/AnimatedBanner';
 import { getArticles } from '@/sanity/lib/sanity';
 import { urlFor } from '@/sanity/lib/image';
 import type { Article } from '@/sanity/lib/sanity';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "News and Insights - Sevenstone ltd",
+  description: "Reach To Us for any enquiry.",
+}
 
 export const revalidate = 60;
+
+
 
 export default async function AllNews() {
   const articles: Article[] = await getArticles();

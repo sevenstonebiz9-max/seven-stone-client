@@ -1,6 +1,6 @@
 import Hero from '@/components/homepage/Hero';
 import HighlightStats from '@/components/homepage/HighlightStats';
-import NewsInsights from '@/components/homepage/NewsInsights';
+import LatestNews from '@/components/homepage/LatestNews';
 import OurPillars from '@/components/homepage/OurPillars';
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero/>
       <HighlightStats/>
       <OurPillars/>
-      <NewsInsights limit={3}/>
+      <LatestNews/>
     </main>
   );
 }
