@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: "Our People - Sevenstone ltd",
+  title: "Our People - Sevenstone Ltd",
   description: "The Engine Behind The Vision",
 }
 

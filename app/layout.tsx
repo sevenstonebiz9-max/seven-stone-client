@@ -10,8 +10,8 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Seventstone ltd",
-  description: "Sevenstone",
+  title: "Sevenstone Ltd",
+  description: "Sevenstone Investment Management Limited was founded in 2017 as an enterprise development and capital facilitation firm committed to empowering SMEs, Women and Youth-Led businesses.",
     icons: {
     icon: [
       { url: "/favicon.ico" },

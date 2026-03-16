@@ -7,7 +7,7 @@ import type { Article } from '@/sanity/lib/sanity';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "News and Insights - Sevenstone ltd",
+  title: "News and Insights - Sevenstone Ltd",
   description: "Reach To Us for any enquiry.",
 }
 
