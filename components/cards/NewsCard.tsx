@@ -47,7 +47,7 @@ const NewsCard = ({
     >
       <Link
         href={href}
-        className="block rounded-2xl overflow-hidden group bg-white  transition-all duration-500"
+        className="block rounded-2xl overflow-hidden group bg-white  transition-all duration-500 border border-gray-200 hover:shadow-lg hover:border-main-maroon"
       >
         <div className="relative w-full h-52 overflow-hidden">
           <Image
@@ -66,7 +66,7 @@ const NewsCard = ({
             <h3 className="text-lg font-bold text-gray-900 mb-3 group-hover:text-main-maroon transition-colors">
               {title}
             </h3>
-            <p className="text-gray-600 text-sm mb-4">{excerpt}</p>
+            <p className="text-gray-600 text-sm mb-4 line-clamp-3">{excerpt}</p>
           </div>
 
           <div className="rounded-full flex items-center gap-3 text-main-maroon font-medium hover:opacity-90 transition-all duration-300 ease-in-out group">
