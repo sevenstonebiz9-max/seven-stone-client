@@ -31,7 +31,7 @@ export default function KiambuYouthWeek() {
       <section className="rounded-2xl mt-20 lg:mt-22 relative w-full min-h-[40vh] lg:min-h-[50vh] overflow-hidden">
           <Image
               src="/images/KIAMBU-COUNTY-YOUTH/image-16.jpg"
-              alt="254 Youth Entrepreneurship Awards & Mentorship Program"
+              alt="Kiambu County Youth Innovation & Entrepreneurship Week"
               fill
               priority
               className="object-cover object-center"
@@ -43,7 +43,7 @@ export default function KiambuYouthWeek() {
               transition={{ duration: 1 }}
               className="text-xl px-4 lg:text-4xl max-w-3xl font-bold text-white text-center"
           >
-            254 Youth Entrepreneurship Awards & Mentorship Program
+            Kiambu County Youth Innovation & Entrepreneurship Week
           </motion.h1>
           </div>
       </section>
