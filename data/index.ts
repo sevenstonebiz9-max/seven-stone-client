@@ -1,6 +1,34 @@
 import { Article } from "@/types/articlesTypes";
 import { Program } from "@/types/programsTypes";
 
+export const financeTeam = [
+
+    {
+      name: 'FA LOISE MUIRURI',
+      title: 'Founder & Chief Executive Officer',
+      imageSrc: '/images/LOISE-PROFILE-PIC-2-WEB.png',
+      linkedInUrl: 'https://ke.linkedin.com/in/fa-loise-muiruri-78369017b',
+      story:
+        `
+      Loise Muiruri is a Certified Investment and Financial Analyst (CIFA) with over 12 years of experience in banking, SME development, and impact entrepreneurship. She is the CEO of Sevenstone, where she has positioned the organization as a catalyst for enterprise growth in Kenya, connecting entrepreneurs, women, and youth-led businesses to finance, mentorship, and markets.
+
+      Loise previously held senior roles in Kenya’s banking sector, managing diverse portfolios and driving SME growth initiatives. She is also a Tony Elumelu Foundation (TEF) Mentor and a passionate ecosystem builder, having co-designed and led initiatives such as the 254 Youth Entrepreneurship Awards, Kiambu County Youth Innovation & Entrepreneurship Week, and the Strathmore SME Conference & Expo. She currently serves as Assistant Project Manager of the Africa Economic Development Hub (AEDH) – Youth Pillar at Strathmore University Business School.
+
+      A respected thought leader in enterprise development, Loise holds a Bachelor’s Degree in Commerce (Finance Option) from KCA University, is accredited by ICIFA as a Certified Investment and Financial Analyst, and holds a Certificate in Enterprise Development Programme from Strathmore University Business School. She is a member of the Institute of Certified Investments & Financial Analysts (ICIFA).`,
+    },
+    {
+      name: 'SIMON MAINA',
+      title: 'Finance Manager',
+      imageSrc: '/images/SIMON-MAINA.jpeg',
+      linkedInUrl: '/',
+      story:
+        `
+       Simon Maina is a Certified Public Accountant (CPA) and seasoned finance professional with expertise in tax advisory, financial reporting, and corporate compliance. At Sevenstone, he supports the Finance function, overseeing financial reporting, compliance, budgeting, and operational financial management across the firm and its investment platforms. His work strengthens financial systems, ensures accountability, and supports efficient capital deployment within Sevenstone’s blended finance model.
+
+        Simon previously served as a Tax Specialist at Sunda International and as an Assistant Financial Accountant at MNC Consulting Group, where he handled tax compliance, audit support, and preparation of financial statements in line with IFRS.`,
+    },
+ 
+]
 export const advisoryTeam = [
 
     {
