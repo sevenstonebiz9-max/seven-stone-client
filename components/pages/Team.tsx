@@ -7,7 +7,7 @@ import { useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import TeamSectionContainer from "../team/TeamSectionContainer";
-import { advisoryTeam, sectorAdvisoryMeambers } from "@/data";
+import { advisoryTeam, sectorAdvisoryMeambers, financeTeam } from "@/data";
 
 const Team = () => {
   const [showModal, setShowModal] = useState(false);
@@ -44,7 +44,7 @@ const Team = () => {
       </section>
 
       {/* CEO Section */}
-      <section className="bg-gray-100 mt-4 rounded-2xl">
+      {/* <section className="bg-gray-100 mt-4 rounded-2xl">
         <motion.section
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -111,10 +111,10 @@ const Team = () => {
             </div>
           </div>
         </motion.section>
-      </section>
+      </section> */}
 
       {/* CEO Modal */}
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {showModal && (
           <motion.div
             className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 px-4 py-6 overflow-y-auto"
@@ -176,9 +176,32 @@ const Team = () => {
             </motion.div>
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
+      <section className="py-16 bg-gray-50 mt-4 rounded-2xl">
+        <div className="container mx-auto px-4 flex flex-col lg:flex-row items-start gap-8">
+          {/* Text Column 1 */}
+          <div className="lg:w-1/2">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Know Our People</h2>
+       
+          </div>
+
+          {/* Text Column 2 */}
+          <div className="lg:w-1/2">
+            <p className="text-gray-700 text-md leading-relaxed">
+            We are a diverse group of professionals united by a shared purpose: to empower entrepreneurs and strengthen the business ecosystem. Each team member brings unique expertise, passion and perspective that drives our collective success. Together we combine insight, integrity and impact to deliver lasting value for the companies and communities we serve.
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Rest of team */}
+      <TeamSectionContainer
+        teamTitle="Finance & Financial Leadership"
+        teamSubline="At Sevenstone, our Finance team drives financial health and strategic stewardship, empowering entrepreneurs and SMEs to grow with confidence."
+        teamCard={financeTeam}
+      />
+
       <TeamSectionContainer
         teamTitle="ADVISORY BOARD"
         teamSubline="Our Board is composed of visionary leaders and ecosystem enablers who provide strategic guidance, mentorship and governance oversight. Together, they help shape Sevenstone’s growth, partnership and impact."
