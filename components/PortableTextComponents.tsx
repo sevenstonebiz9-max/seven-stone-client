@@ -43,7 +43,7 @@ export const portableTextComponents: PortableTextComponents = {
       </h3>
     ),
     normal: ({ children }) => (
-      <p className="text-gray-700 leading-relaxed mb-6">{children}</p>
+      <p className="text-gray-700 leading-relaxed mb-6 text-justify">{children}</p>
     ),
     blockquote: ({ children }) => (
       <blockquote className="border-l-4 border-main-maroon pl-6 py-2 my-8 italic text-gray-700 bg-gray-50 rounded-r">
@@ -52,7 +52,7 @@ export const portableTextComponents: PortableTextComponents = {
     ),
   },
 
-  // ✅ LISTS
+  
   list: {
     bullet: ({ children }) => (
       <ul className="list-disc pl-8 space-y-2 text-gray-700 mb-6">

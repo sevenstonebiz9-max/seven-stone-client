@@ -91,7 +91,7 @@ export default function NewsDetailClientPage() {
       </section>
 
       {/* Article Content */}
-      <section className="max-w-4xl mx-auto py-16 px-6">
+      <section className="max-w-lg mx-auto py-16 px-6">
         {/* Meta Info */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 text-gray-600 text-sm">
           <p className="uppercase tracking-wider text-main-maroon font-semibold">

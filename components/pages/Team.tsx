@@ -187,7 +187,7 @@ const Team = () => {
 
           {/* Text Column 2 */}
           <div className="lg:w-1/2">
-            <p className="text-gray-700 text-lg leading-relaxed">
+            <p className="text-gray-700 text-md leading-relaxed">
             We are a diverse group of professionals united by a shared purpose: to empower entrepreneurs and strengthen the business ecosystem. Each team member brings unique expertise, passion and perspective that drives our collective success. Together we combine insight, integrity and impact to deliver lasting value for the companies and communities we serve.
             </p>
           </div>

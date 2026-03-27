@@ -1,4 +1,4 @@
-// components/pages/AllNews.tsx
+
 import NewsPageClient from '@/components/homepage/NewsPageClient';
 import AnimatedBanner from '@/components/ui/AnimatedBanner';
 import { getArticles } from '@/sanity/lib/sanity';

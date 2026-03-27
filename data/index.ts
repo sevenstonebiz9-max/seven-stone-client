@@ -19,7 +19,7 @@ export const financeTeam = [
     {
       name: 'SIMON MAINA',
       title: 'Finance Manager',
-      imageSrc: '/images/SIMON-MAINA.jpeg',
+      imageSrc: '/images/simon.png',
       linkedInUrl: '/',
       story:
         `
@@ -29,6 +29,7 @@ export const financeTeam = [
     },
  
 ]
+
 export const advisoryTeam = [
 
     {
@@ -280,7 +281,6 @@ export const articles: Article[] = [
     `,
   },
 ];
-
 
 export const programs: Program[] = [
   {

@@ -65,12 +65,12 @@ const TeamSectionContainer = ({ teamTitle, teamSubline, teamCard }: TeamSectionC
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.9, y: 20 }}
                 transition={{ duration: 0.3, ease: 'easeOut' }}
-                className="bg-white rounded-2xl w-full max-w-xl max-h-[80vh] overflow-y-auto p-6 relative shadow-lg"
+                className="bg-white rounded-2xl w-full max-w-xl max-h-[80vh] overflow-y-auto p-6 relative shadow-lg custom-scrollbar"
                 onClick={(e) => e.stopPropagation()} // prevent close on content click
               >
                 <button
                   onClick={() => setSelectedMember(null)}
-                  className="absolute top-4 right-4 text-gray-700 hover:text-black cursor-pointer"
+                  className="absolute top-6 right-4 text-gray-700 hover:text-black cursor-pointer bg-gray-200 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-200 shadow-sm"
                 >
                   ✕
                 </button>
