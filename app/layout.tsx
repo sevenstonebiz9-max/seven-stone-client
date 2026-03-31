@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Nunito_Sans } from "next/font/google";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalyticsProps";
 
 const nunitoSans = Nunito_Sans({
   weight: ["400", "700"],
@@ -66,6 +67,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+    const gaId = process.env.NEXT_PUBLIC_GA_ID;
   return (
     <html lang="en">
       <head>
@@ -93,6 +96,10 @@ export default function RootLayout({
       <body
         className={`${nunitoSans.variable} antialiased`}
       >
+      {/* Google Analytics - */}
+      {process.env.NODE_ENV === 'production' && gaId && (
+        <GoogleAnalytics gaId={gaId} />
+      )}
       {children}
       </body>
     </html>
