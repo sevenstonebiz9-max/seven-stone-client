@@ -9,47 +9,41 @@ const nunitoSans = Nunito_Sans({
   variable: "--font-nunitoSans",
 });
 
-// export const metadata: Metadata = {
-//   title: "Sevenstone Ltd",
-//   description: "Sevenstone Investment Management Limited was founded in 2017 as an enterprise development and capital facilitation firm committed to empowering SMEs, Women and Youth-Led businesses.",
-//     icons: {
-//     icon: [
-//       { url: "/favicon.ico" },
-//       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-//       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-//     ],
-//     apple: [{ url: "/apple-touch-icon.png" }],
-//   },
-// };
 export const metadata: Metadata = {
-  title: "Sevenstone Ltd",
-  description:
-    "Sevenstone Investment Management Limited was founded in 2017 as an enterprise development and capital facilitation firm committed to empowering SMEs, Women and Youth-Led businesses.",
+  metadataBase: new URL("https://sevenstone.co.ke"),
 
-  icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png" }],
+  title: {
+    default: "Sevenstone Ltd | Investment & SME Funding in Kenya",
+    template: "%s | Sevenstone Ltd",
   },
+
+  alternates: {
+    canonical: "https://sevenstone.co.ke",
+  },
+
+  description:
+    "Sevenstone Investment Management Limited empowers SMEs, women, and youth-led businesses through enterprise development and capital facilitation in Kenya.",
+
+  keywords: [
+    "Investment firm Kenya",
+    "SME funding Kenya",
+    "enterprise development Kenya",
+    "capital facilitation Africa",
+    "Sevenstone Ltd",
+  ],
+
+  authors: [{ name: "Sevenstone Ltd" }],
+  creator: "Sevenstone Ltd",
+  publisher: "Sevenstone Ltd",
 
   openGraph: {
     title: "Sevenstone Ltd",
     description:
-      "Enterprise development and capital facilitation firm empowering SMEs, women and youth-led businesses.",
+      "Empowering SMEs, women, and youth-led businesses through investment and enterprise development.",
     url: "https://sevenstone.co.ke",
     siteName: "Sevenstone Ltd",
-    images: [
-      {
-        url: "/og-image.png", 
-        width: 1200,
-        height: 630,
-        alt: "Sevenstone Ltd",
-      },
-    ],
-    locale: "en_US",
+    images: ["/og-image.png"],
+    locale: "en_KE",
     type: "website",
   },
 
@@ -57,8 +51,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sevenstone Ltd",
     description:
-      "Enterprise development and capital facilitation firm empowering SMEs, women and youth-led businesses.",
+      "Empowering SMEs, women, and youth-led businesses.",
     images: ["/og-image.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -69,6 +68,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="5kuX76rptH9u3zKgCK3cgLgp16_f-ImKQ1ThjMois00"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Sevenstone Ltd",
+              url: "https://sevenstone.co.ke",
+              logo: "https://sevenstone.co.ke/og-image.png",
+              sameAs: [
+                "https://www.linkedin.com/company/sevenstone-investments-management-limited/",
+              ],
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${nunitoSans.variable} antialiased`}
       >
