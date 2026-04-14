@@ -21,7 +21,7 @@ const TeamCard = ({ name, title, imageSrc, linkedInUrl, onReadMore }: TeamCardPr
           alt={name || 'Team member'}
           width={450}
           height={500}
-          className="object-cover object-top w-full max-h-[410px] group-hover:scale-105 transition-transform duration-500"
+          className="object-cover object-top w-full max-h-[410px] group-hover:scale-100 grayscale-100 group-hover:grayscale-0 transition-transform duration-500"
         />
 
         {/* Name/Title Box */}
@@ -32,20 +32,20 @@ const TeamCard = ({ name, title, imageSrc, linkedInUrl, onReadMore }: TeamCardPr
       </div>
 
       {/* Card Footer */}
-      <div className="mt-6 text-center">
-        <div className='flex items-center justify-between gap-8 mt-6'>
-            <button onClick={onReadMore} className='text-main-maroon flex items-center gap-2 cursor-pointer'>Read More 
-                <FaArrowRightLong/>
+      <div className="mt-6 text-center ">
+        <div className='flex items-center justify-between gap-8 pr-3'>
+            <button onClick={onReadMore} className='text-main-maroon flex items-center gap-2 cursor-pointer border border-main-maroon px-3 py-1 hover:bg-main-maroon hover:text-white transiltion-all duration-150'>Read More 
+                {/* <FaArrowRightLong/> */}
             </button>
             {linkedInUrl && (
                 <Link
                     href={linkedInUrl}
-                    target="_blank"
+                    // target="_blank"
                     rel="noopener noreferrer"
-                    className="flex text-sm text-white items-center gap-2 bg-linear-to-br from-main-maroon via-[#7A2C38] to-[#A84B58] rounded-full border px-5 py-2 shadow-sm w-full'"
+                    className="flex text-sm text-white w-full'"
                 >
-                    <span>Follow</span>
-                    <FaLinkedin size={15} />
+                    
+                    <FaLinkedin className='text-main-maroon' size={20} />
                 </Link>
             )}
          
