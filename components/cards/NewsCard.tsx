@@ -63,7 +63,7 @@ const NewsCard = ({
             <p className="text-xs uppercase tracking-wider text-[#A84B58] font-semibold mb-2">
               {date}
             </p>
-            <h3 className="text-lg font-bold text-gray-900 mb-3 group-hover:text-main-maroon transition-colors">
+            <h3 className="text-lg font-bold text-gray-900 mb-3 group-hover:text-main-maroon transition-colors line-clamp-2">
               {title}
             </h3>
             <p className="text-gray-600 text-sm mb-4 line-clamp-3">{excerpt}</p>

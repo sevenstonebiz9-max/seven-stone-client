@@ -38,7 +38,7 @@ export default function LatestNews() {
         excerpt: article.excerpt,
         image: article.image
           ? urlFor(article.image).width(800).height(600).url()!
-          : '/placeholder.jpg',
+          : '/placeholder.png',
         date: new Date(article.date).toLocaleDateString('en-US', {
           year: 'numeric',
           month: 'long',

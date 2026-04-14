@@ -6,7 +6,7 @@ export const financeTeam = [
     {
       name: 'FA LOISE MUIRURI',
       title: 'Founder & Chief Executive Officer',
-      imageSrc: '/images/LOISE-PROFILE-PIC-2-WEB.png',
+      imageSrc: '/images/team/loise-CEO.webp',
       linkedInUrl: 'https://ke.linkedin.com/in/fa-loise-muiruri-78369017b',
       story:
         `
@@ -19,8 +19,8 @@ export const financeTeam = [
     {
       name: 'SIMON MAINA',
       title: 'Finance Manager',
-      imageSrc: '/images/simon.png',
-      linkedInUrl: '/',
+      imageSrc: '/images/team/simon.webp',
+      linkedInUrl: '#',
       story:
         `
        Simon Maina is a Certified Public Accountant (CPA) and seasoned finance professional with expertise in tax advisory, financial reporting, and corporate compliance. At Sevenstone, he supports the Finance function, overseeing financial reporting, compliance, budgeting, and operational financial management across the firm and its investment platforms. His work strengthens financial systems, ensures accountability, and supports efficient capital deployment within Sevenstone’s blended finance model.
@@ -35,8 +35,8 @@ export const advisoryTeam = [
     {
       name: 'Dr. Elizabeth Mueni Kimulu, OGW',
       title: 'Development Policy & Governance Advisor',
-      imageSrc: '/images/EMKimulu.jpg',
-      linkedInUrl: 'https://linkedin.com/in/jane-doe',
+      imageSrc: '/images/team/EMKimulu.webp',
+      linkedInUrl: '#',
       story:
         `
         Dr. Elizabeth Mueni Kimulu is an accomplished international social development consultant and advisor with over three decades of experience in public policy, youth and gender empowerment, human capital development, agribusiness and micro, small and medium enterprises (MSMEs).
@@ -50,8 +50,8 @@ export const advisoryTeam = [
     {
       name: 'Ciru Muchemi Rotich',
       title: 'Advisory Board Member',
-      imageSrc: '/images/Ciru-Muchemi-Rotich.jpg',
-      linkedInUrl: 'https://linkedin.com/in/jane-doe',
+      imageSrc: '/images/team/ciru.webp',
+      linkedInUrl: '#',
       story:
         `
         
@@ -67,8 +67,8 @@ export const advisoryTeam = [
     {
       name: 'Eunice Kimani',
       title: 'Advisory Board Member',
-      imageSrc: '/images/eunice-kimani.jpg',
-      linkedInUrl: 'https://linkedin.com/in/jane-doe',
+      imageSrc: '/images/team/eunice-kimani.webp',
+      linkedInUrl: '#',
       story:
         `
         Eunice Kimani is an accomplished Entrepreneurship Development Professional with over 15 years of experience in MSME growth, agribusiness, and enterprise development across Kenya and the region. She currently serves as the Director – Entrepreneurship Programmes
@@ -86,7 +86,7 @@ export const advisoryTeam = [
     {
       name: 'Sarah Karingi',
       title: 'Enterprise Development & Strategic Networking',
-      imageSrc: '/images/Sarah-Karingi.jpg',
+      imageSrc: '/images/team/sarah.webp',
       linkedInUrl: 'https://linkedin.com/in/amos-rama',
       story:
         `
@@ -103,7 +103,7 @@ export const advisoryTeam = [
     {
       name: 'Lewis Momanyi',
       title: 'Business Leader | Policy Advocate | SME Growth Strategist',
-      imageSrc: '/images/Lewis-Momanyi.jpg',
+      imageSrc: '/images/team/lewis.webp',
       linkedInUrl: 'https://linkedin.com/in/jane-doe',
       story: `
         Lewis Momanyi is a passionate business leader dedicated to transforming Africa’s economic narrative by empowering entrepreneurs, driving progressive policy, and fostering sustainable economic growth. His vision is to inspire a continental shift from economic dependence to economic freedom through enterprise development, leadership, and innovation.
@@ -127,11 +127,10 @@ export const advisoryTeam = [
         Beyond his professional engagements, Lewis is an avid reader, traveler, and community service enthusiast—always exploring new ways to learn, connect, and contribute to meaningful change.
       `,
     },
-
     {
       name: 'Johnstone Yeswa',
       title: 'Advisory Board Member',
-      imageSrc: '/images/Johnstone-Yeswa-PHOTO.png',
+      imageSrc: '/images/team/yeswa.webp',
       linkedInUrl: 'https://linkedin.com/in/jane-doe',
       story:
         `
@@ -153,7 +152,7 @@ export const sectorAdvisoryMeambers = [
     {
       name: 'John Wachira Kariuki',
       title: 'Sector Advisory Member – Agribusiness',
-      imageSrc: '/images/John-Wachira-Kariuki-Sector-Advisory-Member.jpg',
+      imageSrc: '/images/team/john.webp',
       linkedInUrl: 'https://linkedin.com/in/jane-doe',
       story:
         `
@@ -172,7 +171,7 @@ export const sectorAdvisoryMeambers = [
     {
       name: 'Eric Kiriko Mwaura',
       title: 'Sector Advisory Member – Governance, Legal and Policy Affairs',
-      imageSrc: '/images/erick.webp',
+      imageSrc: '/images/team/erick.webp',
       linkedInUrl: 'https://linkedin.com/in/jane-doe',
       story:
         `

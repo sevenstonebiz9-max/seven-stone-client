@@ -197,7 +197,7 @@ const Team = () => {
 
       {/* Rest of team */}
       <TeamSectionContainer
-        teamTitle="FINANCE & FINANCIAL LEADERSHIP"
+        teamTitle="FINANCIAL LEADERSHIP"
         teamSubline="At Sevenstone, our Finance team drives financial health and strategic stewardship, empowering entrepreneurs and SMEs to grow with confidence."
         teamCard={financeTeam}
       />
